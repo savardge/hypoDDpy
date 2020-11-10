@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/6c407ad4-0160-4188-aa26-24b174dfe6fb">
+    <event publicID="smi:local/504be8a7-5df8-4e93-9d79-11622948319a">
+      <preferredOriginID>smi:local/38bd48ae-2474-46ff-8400-18f5a404503b</preferredOriginID>
+      <comment>
+        <text>CaMI.FRS microseismicity</text>
+      </comment>
+      <comment id="smi:local/8e4e803e-3462-40a9-8b45-171eb311c5b4">
+        <text>eqcorrscan_template_2020_03_10t05_29_46</text>
+      </comment>
+      <creationInfo>
+        <author>Genevieve Savard   obs:./obs_picked1/merged.obs   NLLoc:v7.00.00(27Oct2017)</author>
+        <creationTime>2020-08-21T16:08:32.000000Z</creationTime>
+      </creationInfo>
+      <origin publicID="smi:local/38bd48ae-2474-46ff-8400-18f5a404503b">
+        <time>
+          <value>2020-03-10T05:29:46.832335Z</value>
+        </time>
+        <latitude>
+          <value>50.453273</value>
+          <uncertainty>0.00034032164286687257</uncertainty>
+        </latitude>
+        <longitude>
+          <value>-112.120077</value>
+          <uncertainty>0.00041759231575738703</uncertainty>
+        </longitude>
+        <depth>
+          <value>580.469</value>
+          <uncertainty>30.678086641770864</uncertainty>
+          <confidenceLevel>68.0</confidenceLevel>
+        </depth>
+        <depthType>from location</depthType>
+        <quality>
+          <associatedPhaseCount>25</associatedPhaseCount>
+          <usedPhaseCount>25</usedPhaseCount>
+          <associatedStationCount>-1</associatedStationCount>
+          <usedStationCount>17</usedStationCount>
+          <depthPhaseCount>-1</depthPhaseCount>
+          <standardError>0.303208</standardError>
+          <azimuthalGap>158.606</azimuthalGap>
+          <secondaryAzimuthalGap>223.6</secondaryAzimuthalGap>
+          <groundTruthLevel>-</groundTruthLevel>
+          <minimumDistance>0.0017524360677253568</minimumDistance>
+          <maximumDistance>0.008208387086918088</maximumDistance>
+          <medianDistance>0.0030182851873523254</medianDistance>
+        </quality>
+        <comment>
+          <text>Note: Depth/Latitude/Longitude errors are calculated from covariance matrix as 1D marginal (Lon/Lat errors as great circle degrees) while OriginUncertainty min/max horizontal errors are calculated from 2D error ellipsoid and are therefore seemingly higher compared to 1D errors. Error estimates can be reconstructed from the following original NonLinLoc error statistics line:
+STATISTICS ExpectX 0.0320005 Y 0.308497 Z 0.580911  CovXX 0.00215613 XY 0.000555646 XZ -0.000374126 YY 0.00143202 YZ -0.000168467 ZZ 0.000941145 EllAz1  83.5357 Dip1  74.7832 Len1  0.054287 Az2  333.217 Dip2  5.39567 Len2  0.063262 Len3  9.507506e-02</text>
+        </comment>
+        <creationInfo>
+          <author>Genevieve Savard   obs:./obs_picked1/merged.obs   NLLoc:v7.00.00(27Oct2017)</author>
+          <creationTime>2020-08-21T16:08:32.000000Z</creationTime>
+        </creationInfo>
+        <originUncertainty>
+          <preferredDescription>uncertainty ellipse</preferredDescription>
+          <minHorizontalUncertainty>51.000299999999996</minHorizontalUncertainty>
+          <maxHorizontalUncertainty>75.17790000000001</maxHorizontalUncertainty>
+          <azimuthMaxHorizontalUncertainty>61.544</azimuthMaxHorizontalUncertainty>
+          <confidenceLevel>68.0</confidenceLevel>
+        </originUncertainty>
+        <arrival publicID="smi:local/5e0abca5-c057-452a-bf78-26214d6906fd">
+          <pickID>smi:local/5cd25fd2-fcbc-41f1-ac22-c8620f6dba97</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0017527778099356056</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.186</timeResidual>
+          <timeWeight>0.5765</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/b408e7e8-f8a6-4c0a-bfd9-b7e1ac0796d6">
+          <pickID>smi:local/5a9eb11b-be32-413f-b46a-4bb6e316392f</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.002322048386482162</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.0891</timeResidual>
+          <timeWeight>1.6095</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2eba31c4-29a8-4f52-9588-932b9a97a673">
+          <pickID>smi:local/50d834d3-ce1a-4eb0-92e3-513cfa83bdfb</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0025342882854789825</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.0515</timeResidual>
+          <timeWeight>1.5465</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/4f0a4e79-7eff-411a-9909-52a34b68cc4a">
+          <pickID>smi:local/d83443fa-a592-4d6b-ab5d-e5fa6b35b0e2</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0025342882854789825</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.0227</timeResidual>
+          <timeWeight>0.4312</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/8bad7e0b-083a-4e9c-80d9-90f1bf327dc9">
+          <pickID>smi:local/c576201e-0d38-43b7-b66d-17595b2857d6</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.002630515697312287</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.0026</timeResidual>
+          <timeWeight>0.5507</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/4e727c81-add9-4efd-a1ca-e5d5d3ff56a4">
+          <pickID>smi:local/8a0837d7-e19c-48f3-86f4-1cda546e33ac</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.002630515697312287</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0087</timeResidual>
+          <timeWeight>1.5465</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/fd441927-8fff-447f-8d0f-9372d993548d">
+          <pickID>smi:local/12f478d7-79c3-43cd-8aff-1c86316104c4</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0027213471795100785</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.3243</timeResidual>
+          <timeWeight>1.8616</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c68b2c1c-453a-4a49-9e6c-c2c2eff0b3c4">
+          <pickID>smi:local/92dbbd1a-c593-4af2-bff4-6fa990ee2d0a</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0027384342900225343</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.1128</timeResidual>
+          <timeWeight>1.0492</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/9af74560-6f82-46ba-a23b-7b149d850b73">
+          <pickID>smi:local/76012dba-b4a6-4676-a33e-a7474b27ebd1</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0027645146165941777</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.9541</timeResidual>
+          <timeWeight>1.0377</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/1342727c-8ee6-413f-a78a-a71bf8b83b55">
+          <pickID>smi:local/52a224c8-7714-4147-952b-4ba5493002b8</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0027645146165941777</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.9072</timeResidual>
+          <timeWeight>0.5507</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/e59ba394-e802-41bb-910c-b4a39c6538c9">
+          <pickID>smi:local/72cd43c4-6ee6-476f-9649-5a19fe0dc8ad</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.002993841626103454</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0371</timeResidual>
+          <timeWeight>0.7402</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/59abb8fa-eda4-4c78-8c52-bc26a3862e62">
+          <pickID>smi:local/ca5c3035-bd4b-4049-add9-ca5f7f966f15</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.002993841626103454</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0489</timeResidual>
+          <timeWeight>0.4265</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/dff1fe05-8fed-4b99-96b0-7d992edce50c">
+          <pickID>smi:local/0abe16bd-9609-47bd-aa6a-68bcff6ffccf</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.00301812330946326</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0442</timeResidual>
+          <timeWeight>0.5507</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/61b7ae33-f549-4a53-aa3f-293f6858f7c9">
+          <pickID>smi:local/faeb5a02-5b80-4ca1-a93a-9fdcedcd57c8</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.00301812330946326</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0831</timeResidual>
+          <timeWeight>1.0377</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/e934bb5e-7001-41f7-ba6d-e27c5334b9cb">
+          <pickID>smi:local/cacd2928-5b38-4d73-9045-9d97ab52bb3c</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0031629140880161753</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.1054</timeResidual>
+          <timeWeight>1.5465</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/44bde13c-88d6-4d25-b5de-e1039ac6e41d">
+          <pickID>smi:local/4a80dca1-4ff5-4844-ba73-6f22d687def6</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.0031629140880161753</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0425</timeResidual>
+          <timeWeight>0.7402</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c7c7800a-145f-4cc6-a866-3f28c3f91580">
+          <pickID>smi:local/f4d70b34-edd9-47ec-a9cf-ce83606041a5</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.003241155067731105</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.103</timeResidual>
+          <timeWeight>0.7402</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/1f76e3b7-5ee5-4877-bdb7-b50597d4d701">
+          <pickID>smi:local/0ef3aecf-4825-4fe6-b323-f6446f8694cb</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.003241155067731105</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0076</timeResidual>
+          <timeWeight>0.4265</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/9137f49b-da87-4718-895f-c832b33cb771">
+          <pickID>smi:local/fd2f139f-7780-45f8-b5ba-c407db2e74c9</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.004289764060232345</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.0082</timeResidual>
+          <timeWeight>1.6095</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/7a728e2f-cf62-44da-ae33-8b087640701b">
+          <pickID>smi:local/be5d8966-836a-4939-8693-e6b98c17fdb5</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.004553265290766532</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.5477</timeResidual>
+          <timeWeight>1.5567</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/c6d7a130-e33c-403d-9bd9-3eb6f909987d">
+          <pickID>smi:local/f66f059a-2536-4334-a6ab-2528fe43493a</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.004622513054422275</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.1766</timeResidual>
+          <timeWeight>1.0492</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/f95d1995-8d69-45c1-9b66-f65ca1ddca1d">
+          <pickID>smi:local/bf86f393-21ef-4095-b8ed-4221d7f4faae</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.005748463705032525</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.2585</timeResidual>
+          <timeWeight>1.0492</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/68fcc704-bf2b-46b8-a635-cf58e222dcfc">
+          <pickID>smi:local/7a34508d-726d-4417-802d-d21e811a590b</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.007771937318349669</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>0.0826</timeResidual>
+          <timeWeight>1.2865</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/2763196a-3941-4041-8725-4c7cfc564fda">
+          <pickID>smi:local/0e6cf5ce-d635-483d-b96a-1d5b1c38ce7f</pickID>
+          <phase>P</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.008208108297220254</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.033</timeResidual>
+          <timeWeight>1.0492</timeWeight>
+        </arrival>
+        <arrival publicID="smi:local/248524de-b0c8-4bd7-957b-b591ea1fcba0">
+          <pickID>smi:local/ce6a8767-d5bc-45d5-8da6-dfe54d1be698</pickID>
+          <phase>S</phase>
+          <azimuth>359.0</azimuth>
+          <distance>0.008208108297220254</distance>
+          <takeoffAngle>
+            <value>-1.0</value>
+          </takeoffAngle>
+          <timeResidual>-0.2954</timeResidual>
+          <timeWeight>0.4312</timeWeight>
+        </arrival>
+      </origin>
+      <pick publicID="smi:local/bf86f393-21ef-4095-b8ed-4221d7f4faae">
+        <time>
+          <value>2020-03-10T05:29:46.917200Z</value>
+          <uncertainty>0.0329</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0203" channelCode="DPN"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5a9eb11b-be32-413f-b46a-4bb6e316392f">
+        <time>
+          <value>2020-03-10T05:29:47.510500Z</value>
+          <uncertainty>0.0259</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0307" channelCode="DPN"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/be5d8966-836a-4939-8693-e6b98c17fdb5">
+        <time>
+          <value>2020-03-10T05:29:46.976500Z</value>
+          <uncertainty>0.0264</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0304" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/50d834d3-ce1a-4eb0-92e3-513cfa83bdfb">
+        <time>
+          <value>2020-03-10T05:29:47.146600Z</value>
+          <uncertainty>0.0265</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0909" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d83443fa-a592-4d6b-ab5d-e5fa6b35b0e2">
+        <time>
+          <value>2020-03-10T05:29:47.451000Z</value>
+          <uncertainty>0.0527</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0909" channelCode="DPN"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f66f059a-2536-4334-a6ab-2528fe43493a">
+        <time>
+          <value>2020-03-10T05:29:47.352100Z</value>
+          <uncertainty>0.0329</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0010" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7a34508d-726d-4417-802d-d21e811a590b">
+        <time>
+          <value>2020-03-10T05:29:47.801000Z</value>
+          <uncertainty>0.0294</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0901" channelCode="DPN"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/cacd2928-5b38-4d73-9045-9d97ab52bb3c">
+        <time>
+          <value>2020-03-10T05:29:47.212800Z</value>
+          <uncertainty>0.0265</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0902" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4a80dca1-4ff5-4844-ba73-6f22d687def6">
+        <time>
+          <value>2020-03-10T05:29:47.411500Z</value>
+          <uncertainty>0.0397</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0902" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0abe16bd-9609-47bd-aa6a-68bcff6ffccf">
+        <time>
+          <value>2020-03-10T05:29:47.060500Z</value>
+          <uncertainty>0.0464</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0404" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/faeb5a02-5b80-4ca1-a93a-9fdcedcd57c8">
+        <time>
+          <value>2020-03-10T05:29:47.365200Z</value>
+          <uncertainty>0.0331</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0404" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5cd25fd2-fcbc-41f1-ac22-c8620f6dba97">
+        <time>
+          <value>2020-03-10T05:29:47.590400Z</value>
+          <uncertainty>0.0453</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0607" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/12f478d7-79c3-43cd-8aff-1c86316104c4">
+        <time>
+          <value>2020-03-10T05:29:47.111000Z</value>
+          <uncertainty>0.0238</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0809" channelCode="DPN"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/92dbbd1a-c593-4af2-bff4-6fa990ee2d0a">
+        <time>
+          <value>2020-03-10T05:29:47.549800Z</value>
+          <uncertainty>0.0329</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0208" channelCode="DPZ"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/76012dba-b4a6-4676-a33e-a7474b27ebd1">
+        <time>
+          <value>2020-03-10T05:29:48.054000Z</value>
+          <uncertainty>0.0331</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0407" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/52a224c8-7714-4147-952b-4ba5493002b8">
+        <time>
+          <value>2020-03-10T05:29:48.345500Z</value>
+          <uncertainty>0.0464</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0407" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0e6cf5ce-d635-483d-b96a-1d5b1c38ce7f">
+        <time>
+          <value>2020-03-10T05:29:47.220300Z</value>
+          <uncertainty>0.0329</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0001" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ce6a8767-d5bc-45d5-8da6-dfe54d1be698">
+        <time>
+          <value>2020-03-10T05:29:47.451000Z</value>
+          <uncertainty>0.0527</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0001" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f4d70b34-edd9-47ec-a9cf-ce83606041a5">
+        <time>
+          <value>2020-03-10T05:29:47.212800Z</value>
+          <uncertainty>0.0397</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0202" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0ef3aecf-4825-4fe6-b323-f6446f8694cb">
+        <time>
+          <value>2020-03-10T05:29:47.451300Z</value>
+          <uncertainty>0.053</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0202" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/72cd43c4-6ee6-476f-9649-5a19fe0dc8ad">
+        <time>
+          <value>2020-03-10T05:29:47.067100Z</value>
+          <uncertainty>0.0397</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0704" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ca5c3035-bd4b-4049-add9-ca5f7f966f15">
+        <time>
+          <value>2020-03-10T05:29:47.398300Z</value>
+          <uncertainty>0.053</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0704" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/fd2f139f-7780-45f8-b5ba-c407db2e74c9">
+        <time>
+          <value>2020-03-10T05:29:47.501800Z</value>
+          <uncertainty>0.0259</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="F0604" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c576201e-0d38-43b7-b66d-17595b2857d6">
+        <time>
+          <value>2020-03-10T05:29:47.100200Z</value>
+          <uncertainty>0.0464</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0209" channelCode="DPZ"></waveformID>
+        <phaseHint>P</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8a0837d7-e19c-48f3-86f4-1cda546e33ac">
+        <time>
+          <value>2020-03-10T05:29:47.424800Z</value>
+          <uncertainty>0.0265</uncertainty>
+        </time>
+        <waveformID networkCode="XX" stationCode="C0209" channelCode="DPE"></waveformID>
+        <phaseHint>S</phaseHint>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>
